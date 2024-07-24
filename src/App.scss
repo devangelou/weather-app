@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline;
+      margin: 0 10px;
+
+      a {
+        text-decoration: none;
+        color: #007bff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin: 5px 0;
+}
